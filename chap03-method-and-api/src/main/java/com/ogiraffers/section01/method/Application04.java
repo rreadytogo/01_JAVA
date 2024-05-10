@@ -1,4 +1,5 @@
 package main.java.com.ogiraffers.section01.method;
+// #
 
 public class Application04 {
     public static void main(String[] args) {
@@ -21,7 +22,7 @@ public class Application04 {
 
     }
 
-    /*** 하면 초록색으로 됨!
+    /*** 하면 초록색으로 뙇!
      *  협업할 때 설명 전달하는 것 @param
      *
      *  이름과 나이와 성별을 전달 받아 한 번에 출력해주는 기능을 제공
@@ -36,8 +37,10 @@ public class Application04 {
 //    메인메서드 밖에서 만든다.
 //    final 붙은건 값을 바꿀 수 없다
     public void testMethod(String name, int age, final char gender) {
+//   #. char  왜 쓰신거지? 그냥 string 써도 됐던거 아닌가?+
 
-////        name = "홍길동";
+
+//        name = "홍길동";
 //        age = 20;
 //        gender = 's';
 

@@ -1,13 +1,13 @@
 package main.java.com.ogiraffers.section01.method;
-
+//# main 없이 호출한거 뭐지ㅠ
 public class Application08 {
 
     public static void main(String[] args) {
 
         /*
          * Static 메서드 호출
-         * 메인말고도 static 메서드 만들 수 있다
-         * 호출하는 방법 어떤 것인지 알아볼 것
+         메인말고도 static 메서드 만들 수 있다
+         호출하는 방법 어떤 것인지 알아볼 것
          * */
 
         /*

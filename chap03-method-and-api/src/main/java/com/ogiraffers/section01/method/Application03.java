@@ -60,6 +60,7 @@ public class Application03 {
         long longAge = 30;
 //        app3.testMethod(longAge); error! long이 더 크니까 못 담아
         app3.testMethod((int) longAge);
+//       큰거 할 땐 (작은타입쓰고) 변수명
 
         // 연산 결과를 이용하는 값 전달 테스트
         app3.testMethod(byteAge * 2);

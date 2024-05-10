@@ -13,17 +13,19 @@ int보다 string이 더 크다
 */
 
 
-public class Application07 {
+public class Application07_test {
 
     public static void main(String[] args) {
 
-        Application07 app7 = new Application07();
+        Application07_test app7 = new Application07_test();
         int a = 10;
         int b = 2;
         System.out.println(app7.methodadd(a,b));
         System.out.println(app7.methodminus(a,b));
         System.out.println(app7.methodmultiply(a,b));
         System.out.println(app7.methoddivide(a,b));
+//        app7.methoddivide(a,b);
+
 
 
         /*

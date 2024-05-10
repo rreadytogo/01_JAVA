@@ -1,5 +1,5 @@
 package main.java.com.ogiraffers.section01.method;
-
+// # static 없으면 자가복제 해야한다는 것이 차이같은데...
 public class Application09 {
 
     public static void main(String[] args) {
