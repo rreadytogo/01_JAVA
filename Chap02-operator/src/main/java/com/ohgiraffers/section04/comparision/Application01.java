@@ -17,6 +17,7 @@ public class Application01 {
         System.out.println(!true);
         //false 출력
         System.out.println(!false);
+
         //true 출력
 
         int inum1 = 10;
@@ -42,7 +43,8 @@ public class Application01 {
         System.out.println(ch2); //A로 출력
         
         
-        //????????char이 문자열 변환 아니었나?????????????***////
+        //?char이 문자열 변환 아니었나?***
+        // char형 변수의 문자를 선언-> 해당 문자는 아스키코드의 규칙에 맞게 숫자로 치환이 되어 컴퓨터에 저장되게 됩니다.//
 
 
         System.out.println("ch1과 ch2가 같은지 비교 : " + (ch1==ch2));
@@ -76,24 +78,6 @@ public class Application01 {
         int y = 11;
         boolean result = x <= y;
         System.out.println(result);
-
-
-
-
-
-
-
-
-
-
-
-        
-        
-
-        
-
-
-
 
     }
 }

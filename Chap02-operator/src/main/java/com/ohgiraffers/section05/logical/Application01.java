@@ -32,10 +32,11 @@ public class Application01 {
 
         System.out.println("true와 true의 or 논리 연산 : " + (true || true));
         System.out.println("true와 false의 or 논리 연산 : " + (true || false));
-        System.out.println("flase와 false의 or 논리 연산 : " + (false || false));
+        System.out.println("flase와 false의 or 논리 연산 : " + (false || false)); //false
 
         //false 경우의 수가 많은 코드를 앞에 나오게 짠다
         //true 경우의 수가 많은 코드를 앞에 나오게 한다.
+        //(과부하 걸릴 수 있기 때문)
         // &&&&&이 부분 다시 &&&&&&&&&
 
         int a = 10;
@@ -44,7 +45,25 @@ public class Application01 {
         int d = 40;
 
 
-        System.out.println("===============================================");
+        System.out.println("==================&& And 연산=============================");
+
+        System.out.println("a가 b보다 작으면서 c가 d보다 작은지 확인 : " + ((a<b) && (c<d)));
+        System.out.println("a가 b보다 작으면서 c가 d보다 큰지 확인 : " + ((a<b) && (c>d)));
+        System.out.println("a가 b보다 크면서 c가 d보다 작은지 확인 : " + ((a>b) && (c<d)));
+        System.out.println("a가 b보다 크면서 c가 d보다 큰지 확인 : " + ((a>b) && (c>d)));
+        System.out.println("a가 b보다 작거나 c가 d보다 작은지 확인 : " + ((a>b) && (c<d)));
+
+        System.out.println("==================|| Or 연산=============================");
+
+        System.out.println("a가 b보다 작으면서 c가 d보다 작은지 확인 : " + ((a<b) || (c<d)));
+        System.out.println("a가 b보다 작으면서 c가 d보다 큰지 확인 : " + ((a<b) || (c>d)));
+        System.out.println("a가 b보다 크면서 c가 d보다 작은지 확인 : " + ((a>b) || (c<d)));
+        System.out.println("a가 b보다 크면서 c가 d보다 큰지 확인 : " + ((a>b) || (c>d)));
+        System.out.println("a가 b보다 작거나 c가 d보다 작은지 확인 : " + ((a>b) || (c<d)));
+
+
+
+
 
 
 
