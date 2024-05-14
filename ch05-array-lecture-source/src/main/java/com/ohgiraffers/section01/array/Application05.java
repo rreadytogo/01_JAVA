@@ -14,7 +14,7 @@ public class Application05 {
         int shapesNumber = (int)(Math.random()*shapes.length);
         int chNumber = (int)(Math.random()*number.length);
 //        배열에 넣어둔 값 중 하나가 랜덤으로 발생할 것
-//        #(int) 이거 왜 붙이더라?
+//        #(int) 이거 왜 붙이더라? -> 정수로 나타내기 위해 (소수점 버림)
 
         System.out.println(shapes[shapesNumber] + number[chNumber]);
 
