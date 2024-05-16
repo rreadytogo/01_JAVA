@@ -137,9 +137,6 @@ public class Application01 {
             System.out.println(" 번호 선택 : ");
             int no = scr.nextInt();
             //조건문 사용할건데 12349 받을게 확실.  -> switch!
-            //받을게 확실하다가 무슨 말이지
-
-
 
 
             switch (no) {
